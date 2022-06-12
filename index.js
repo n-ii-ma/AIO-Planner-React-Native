@@ -11,12 +11,12 @@ import App from './app/App';
 import {store} from './app/store';
 import {name as appName} from './app.json';
 
-const root = () => {
+const root = () => (
   <StoreProvider store={store}>
     <PaperProvider>
       <App />
     </PaperProvider>
-  </StoreProvider>;
-};
+  </StoreProvider>
+);
 
 AppRegistry.registerComponent(appName, () => root);

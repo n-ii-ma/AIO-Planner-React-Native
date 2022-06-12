@@ -69,6 +69,12 @@
 		<string>Octicons.ttf</string>
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
+		<string>roboto-v29-latin-300.ttf</string>
+		<string>roboto-v29-latin-500.ttf</string>
+		<string>roboto-v29-latin-700.ttf</string>
+		<string>roboto-v29-latin-regular.ttf</string>
+		<string>Rodetta.ttf</string>
+		<string>Roboto.ttf</string>
 	</array>
 </dict>
 </plist>
