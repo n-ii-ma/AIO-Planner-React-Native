@@ -2,11 +2,12 @@ import {StyleSheet, View} from 'react-native';
 import React from 'react';
 
 import TasksPage from '../components/TasksPage';
+import WeatherPage from '../components/WeatherPage';
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <TasksPage />
+      <WeatherPage />
     </View>
   );
 };

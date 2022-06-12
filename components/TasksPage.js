@@ -24,6 +24,6 @@ export default TasksPage;
 const styles = StyleSheet.create({
   container: {
     marginTop: 20,
-    width: '80%',
+    width: '85%',
   },
 });
