@@ -38,6 +38,7 @@ const styles = StyleSheet.create({
   noTask: {
     textAlign: 'center',
     fontSize: 24,
+    fontWeight: '500',
     color: 'black',
   },
 });
