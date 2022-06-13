@@ -38,5 +38,6 @@ const styles = StyleSheet.create({
   taskText: {
     fontSize: 20,
     color: 'black',
+    paddingLeft: 10,
   },
 });

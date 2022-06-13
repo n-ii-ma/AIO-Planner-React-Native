@@ -1,4 +1,4 @@
-import {StyleSheet, View} from 'react-native';
+import {StyleSheet, ScrollView, View} from 'react-native';
 import React from 'react';
 import {useSelector} from 'react-redux';
 
@@ -11,11 +11,13 @@ const TasksPage = () => {
   const tasks = useSelector(selectTasks);
 
   return (
-    <View style={styles.container}>
-      {tasks.length ? <RemainingTasks /> : null}
-      <TasksList />
-      <TasksForm />
-    </View>
+    <ScrollView>
+      <View style={styles.container}>
+        {tasks.length ? <RemainingTasks /> : null}
+        <TasksList />
+        <TasksForm />
+      </View>
+    </ScrollView>
   );
 };
 
@@ -23,6 +25,7 @@ export default TasksPage;
 
 const styles = StyleSheet.create({
   container: {
+    alignSelf: 'center',
     marginTop: 20,
     width: '90%',
     marginBottom: 30,
