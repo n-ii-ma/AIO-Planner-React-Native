@@ -151,6 +151,7 @@ const WeatherForm = () => {
         value={searchQuery}
         onChangeText={query => setSearchQuery(query)}
         placeholder="City Name..."
+        onSubmitEditing={handleSubmit}
       />
       <View style={styles.container}>
         <Button style={styles.button} mode="contained" onPress={handleSubmit}>

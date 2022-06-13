@@ -8,7 +8,7 @@ import AddTransaction from './AddTransaction';
 
 const TransactionPage = () => {
   return (
-    <ScrollView>
+    <ScrollView keyboardShouldPersistTaps="handled">
       <View style={styles.container}>
         <Balance />
         <IncomeExpenses />

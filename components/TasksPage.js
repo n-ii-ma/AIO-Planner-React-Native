@@ -11,7 +11,7 @@ const TasksPage = () => {
   const tasks = useSelector(selectTasks);
 
   return (
-    <ScrollView>
+    <ScrollView keyboardShouldPersistTaps="handled">
       <View style={styles.container}>
         {tasks.length ? <RemainingTasks /> : null}
         <TasksList />

@@ -6,7 +6,7 @@ import WeatherForm from './WeatherForm';
 
 const WeatherPage = () => {
   return (
-    <ScrollView>
+    <ScrollView keyboardShouldPersistTaps="handled">
       <View style={styles.container}>
         <Weather />
         <WeatherForm />
