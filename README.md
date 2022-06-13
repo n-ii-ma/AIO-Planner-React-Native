@@ -14,7 +14,7 @@ A multipurpose React Native Android/iOS app which implements Google’s Material
 + [Contact](#contact)
 
 ## General Info
-This React Native app allows clients to calculate their income/expenses, keep track of their tasks, get the weather data of their location, and search the current weather of any city in the world.
+This React Native app allows clients to calculate their income/expenses, keep track of their tasks, get their current weather data based on their GPS location, and search the current weather of any city in the world by utilizing the OpenWeather API.
 
 ## Technologies
 Project is created with:
