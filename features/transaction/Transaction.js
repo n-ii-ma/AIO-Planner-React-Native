@@ -17,7 +17,7 @@ const Transaction = ({transaction}) => {
         <IconButton
           icon="delete"
           color="red"
-          size={20}
+          size={18}
           onPress={() => dispatch(deleteTransaction(transaction))}
           style={styles.iconButton}
         />
@@ -48,11 +48,11 @@ const styles = StyleSheet.create({
     marginBottom: 0,
   },
   transactionText: {
-    fontSize: 20,
+    fontSize: 18,
     color: 'black',
   },
   transactionAmount: {
-    fontSize: 20,
+    fontSize: 18,
     color: 'black',
   },
 });

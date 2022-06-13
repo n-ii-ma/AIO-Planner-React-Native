@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
   city: {
     marginBottom: 15,
     alignSelf: 'flex-start',
-    fontSize: 20,
+    fontSize: 22,
     color: 'black',
   },
   temp: {
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
   },
   desc: {
     alignSelf: 'flex-end',
-    fontSize: 20,
+    fontSize: 22,
     color: 'black',
   },
 });

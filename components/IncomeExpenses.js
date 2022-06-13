@@ -76,10 +76,10 @@ const styles = StyleSheet.create({
   },
   incomeAmount: {
     color: '#2ecc71',
-    fontSize: 24,
+    fontSize: 22,
   },
   expenseAmount: {
     color: '#c0392b',
-    fontSize: 24,
+    fontSize: 22,
   },
 });

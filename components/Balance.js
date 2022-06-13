@@ -30,12 +30,12 @@ export default Balance;
 
 const styles = StyleSheet.create({
   title: {
-    fontSize: 24,
+    fontSize: 22,
     fontWeight: '500',
     color: 'black',
   },
   total: {
-    fontSize: 36,
+    fontSize: 32,
     fontWeight: '500',
     color: 'black',
   },

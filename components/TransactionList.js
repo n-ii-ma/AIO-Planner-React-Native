@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     paddingBottom: 5,
     borderBottomWidth: 1,
     borderBottomColor: '#dedede',
-    fontSize: 24,
+    fontSize: 22,
     fontWeight: '500',
     color: 'black',
     marginBottom: 10,

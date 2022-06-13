@@ -37,7 +37,7 @@ const AddTransaction = () => {
       />
       <TextInput
         value={amount}
-        onChangeText={amount => setAmount(amount.replace(/[^-0-9]/g, ''))}
+        onChangeText={amount => setAmount(amount.replace(/[^-.0-9]/g, ''))}
         keyboardType="numeric"
         label="Enter Amount"
         mode="outlined"
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     paddingBottom: 5,
     borderBottomWidth: 1,
     borderBottomColor: '#dedede',
-    fontSize: 24,
+    fontSize: 22,
     fontWeight: '500',
     color: 'black',
     marginBottom: 10,
