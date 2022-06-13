@@ -15,6 +15,7 @@ const Weather = () => {
   const weatherIsLoading = useSelector(selectWeatherIsLoading);
   const weatherHasError = useSelector(selectWeatherHasError);
 
+  // Error alert
   useEffect(() => {
     if (weatherHasError) {
       Alert.alert('Network Error', 'Something Went Wrong!', [
