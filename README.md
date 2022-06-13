@@ -1,6 +1,6 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
 
-# AIO Planner
+# AIO Planner RN
 
 A multipurpose React Native Android/iOS app which implements Google’s Material Design.
 
