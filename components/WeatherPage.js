@@ -18,6 +18,7 @@ export default WeatherPage;
 const styles = StyleSheet.create({
   container: {
     marginTop: 40,
-    width: '85%',
+    width: '90%',
+    marginBottom: 30,
   },
 });
