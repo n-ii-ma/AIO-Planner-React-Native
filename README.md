@@ -52,9 +52,9 @@ import {API_KEY} from '@env';
 
 ## Screenshots
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/88039431/173394747-a2d29232-33a8-47cb-82b8-92ac577837bb.png" width="275" />
-  <img src="https://user-images.githubusercontent.com/88039431/173394769-4e1f9485-8ad5-4a23-8c58-98382ea965e6.png" width="275" />
-  <img src="https://user-images.githubusercontent.com/88039431/173394836-66203f14-23f5-4fbc-a9d9-f6b71eb833a8.png" width="275" />
+  <img src="https://user-images.githubusercontent.com/88039431/173394747-a2d29232-33a8-47cb-82b8-92ac577837bb.png" width="270" />
+  <img src="https://user-images.githubusercontent.com/88039431/173394769-4e1f9485-8ad5-4a23-8c58-98382ea965e6.png" width="270" />
+  <img src="https://user-images.githubusercontent.com/88039431/173394836-66203f14-23f5-4fbc-a9d9-f6b71eb833a8.png" width="270" />
 </p>
 
 ## License
