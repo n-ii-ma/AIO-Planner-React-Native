@@ -3,7 +3,7 @@ import React from 'react';
 
 const IsLoading = () => {
   return (
-    <View style={{justifyContent: 'center', marginBottom: 40}}>
+    <View style={{justifyContent: 'center', marginBottom: 25}}>
       <ActivityIndicator size="large" />
     </View>
   );
